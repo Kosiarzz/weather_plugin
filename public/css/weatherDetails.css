@@ -1,0 +1,252 @@
+.container{
+    margin-left:auto;
+    margin-right: auto;
+    width: 950px;
+    padding-top: 50px;
+}
+
+.contentCenter{
+    text-align: center;
+}
+
+/* buttons */
+.nav{
+    width:100%;
+    margin-bottom: 30px;
+}
+
+.btn-link{
+    width:100px;
+    height: 30px;
+    background-color: #17a2b8;
+    font-size:24px;
+    color:#fff;
+    padding:5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.btn-link:hover{
+    background-color: #138496;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+/* css for current weather*/
+.weatherNow{
+    width:100%;
+    min-height: 450px;
+}
+
+.row{
+    width: 400px;
+    height: 400px;
+    background-color: #f1f1f1;
+    border:1px solid #dadada;
+    border-radius:30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.city{
+    width:100%;
+    color:#5e5e5e;
+    text-align:left;
+    padding:10px 0 0 20px;
+    font-size:24px;
+}
+
+.cords{
+    color:#696969;
+    text-align:left;
+    padding:0 0 0 20px;
+    font-size:12px;
+}
+
+.info{
+    width:100%;
+    height: 110px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cloud{
+    width:130px;
+    height: 100px;
+    margin-left:40px;
+    float:left;
+}
+
+.cloud img{
+    width: 100%;
+    height: 100%;
+}
+
+.tempInfo{
+    float:right;
+    margin-right: 60px;
+    line-height: 50px;
+}
+
+.mainTemp{
+    font-size:50px;
+    color:#686868;
+}
+
+.mainTemp sup{
+    font-size: 30px;
+}
+
+.feelsLike{
+    font-size:16px;
+}
+
+.moreInfo{
+    width:100%;
+}
+
+
+
+/* css for hourly weather */
+.hourlySection{
+    width:100%;
+    height:1800px;
+}
+
+.rowHourly{
+    width: 135px;
+    height: 200px;
+    background-color: #f1f1f1;
+    border:1px solid #dadada;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    float:left;
+}
+
+.hourlyDate{
+    float:left;
+    width:100%;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top:3px;
+}
+
+.cloudHourly{
+    width: 70px;
+    height: 70px;
+    margin-left:32px;
+    margin-top:5px;
+    float:left;
+}
+
+.cloudHourly img{
+    width: 100%;
+    height: 100%;
+}
+
+.hourlyMoreInfo{
+    float:left;
+    width: 100%;
+    font-size:15px;
+}
+
+.hourlyTemp{
+    font-size: 18px;
+}
+
+.hourlyClouds{
+    font-size: 14px;
+}
+
+
+/* css for several days weather*/
+.daysSection{
+    width:100%;
+    height: 1150px;
+}
+
+.rowDaily{
+    width:100%;
+    height: 120px;
+    background-color: #f1f1f1;
+    border:1px solid #dadada;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    float:left;
+}
+
+.dailyDate{
+    float:left;
+    height:100%;
+    width:80px;
+    font-size:26px;
+    padding:0 0 0 15px;
+    line-height: 120px;
+}
+
+.cloudDaily{
+    width:130px;
+    height: 100px;
+    margin-left:40px;
+    margin-top:10px;
+    float:left;
+}
+
+.cloudDaily img{
+    width:100%;
+    height: 100%;
+}
+
+.dayDescription{
+    margin-top:10px;
+    font-size: 18px;
+}
+
+.tempDaily{
+    font-size: 17px;
+    padding:5px 0 5px 0;
+}
+
+.tempDaily img{
+    width: 20px;
+    height: 20px;
+}
+
+.temperatureDaily{
+    padding:0 0 0 5px;
+}
+
+/* css for history weather*/
+.historySection{
+    width:100%;
+    height: 300px;
+    font-size:17px;
+}
+
+.historySection form input{
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top:5px;
+}
+
+
+.historySection form button{
+    margin-top:10px;
+    background-color: #007bff;
+    color:#fff;
+    border:0;
+    border-radius: 5px;
+    font-size:18px;
+    padding:8px;
+    cursor:pointer;
+}
+
+.historySection form button:hover{
+    background-color: #0060c7;
+}
+
